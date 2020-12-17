@@ -1,10 +1,6 @@
 # Vehicle Routing Problem - Traveling around Europe
 
-This is a project that implements a simple real-life demo of Vehicle Routing Problem (VRP). The question definition is to conqure Travel Salesman Probelm (TSP) that has multiple salesmen.
-
-## Motivation
-
-This is a project of the course Operating Research. My friend and I are dreaming that, one day we'll travel around the entire Europe together. We initially form this as a TSP problem, but soon we realize that it would be better if we all take different routes and share our experiences afterwards. Therefore, it became a VRP.
+This is a project that demonstrates vechicle routing problem. We solved it with Linear Programming using pulp package, which yields the optimal solution.
 
 ## Dataset
 
@@ -54,11 +50,7 @@ Run ```vrp.ipynb``` to plot the result. You can set varaible K to indicate numbe
 
     ![](https://i.imgur.com/EIDcAlH.png)
 
-Once **K (num of salesmen)** is larger, it is better not to solve it as a linear problem using pulp package. We should use meta heuristic methods instead, though the solution might not be optimal, yet a lot faster.
+Once **K (num of salesmen)** is larger, it is better not to solve it with linear programming. We should use meta heuristic methods instead, though the solution might not be optimal, yet a lot faster.
 
-## Contributors
 
-- [Jared Wang](https://github.com/jwang0306)
-- [Zacharyyyy](https://github.com/Zacharyyyy)
-
-## STAR THIS REPO if you like it !
+## A star would be nice if you like it !
